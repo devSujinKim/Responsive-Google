@@ -53,6 +53,9 @@ img{
     width: 24px;
     height: 24px;
 }
+.gnb ul li.normal a {
+    border-bottom: 2px solid #fff;
+}
 .gnb ul li.normal:not(.menu) a {
     color: #757575;
     font-size: 12px;
@@ -154,7 +157,6 @@ main form .input-wrap {
     margin: 0 auto;
     padding: 0 0 0 16px;
     box-sizing: border-box;
-    outline: none;
     display: flex;
 }
 main form .input-wrap input[type="text"] {
@@ -162,6 +164,7 @@ main form .input-wrap input[type="text"] {
 	line-height: 34px;
 	width: calc(100% - 40px);
     font-size: 18px;
+    outline: none;
 }
 main form .input-wrap button {
     background-color: #3b78e7;
