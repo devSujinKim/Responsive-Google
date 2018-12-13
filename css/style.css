@@ -68,15 +68,15 @@ img{
 .gnb ul li.app a {
     background-image: url(../images/menu.png);
     width: 22px;
-	height: 22px;
-	background-size: 24px 22px;
+    height: 22px;
+    background-size: 24px 22px;
 }
 .gnb ul li.menu a, .gnb ul li.app a {
     display: block;
-	text-indent: 99999em;
-	background-position: center center;
-	background-repeat: no-repeat;
-	overflow: hidden;
+    text-indent: 99999em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .gnb ul li.login a {
     color: #666;
@@ -159,8 +159,8 @@ main form .input-wrap {
 }
 main form .input-wrap input[type="text"] {
     height: 34px;
-	line-height: 34px;
-	width: calc(100% - 40px);
+    line-height: 34px;
+    width: calc(100% - 40px);
     font-size: 18px;
 }
 main form .input-wrap button {
